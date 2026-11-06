@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Nimra Rab Nawaz — Web Developer (HTML, CSS, JavaScript) building clean, responsive websites. Available for freelance work, internships, remote roles and new opportunities." />
+<meta name="theme-color" content="#0e1713" />
+<title>Nimra Rab Nawaz | Web Developer for Freelance, Remote &amp; Internship Roles</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Nimra Rab Nawaz","jobTitle":"Web Developer","sameAs":["https://www.linkedin.com/in/nimra-rab-nawaz-b7a1b23b7","https://github.com/nimra-codes"],"knowsAbout":["HTML","CSS","JavaScript","Web Development","Git","GitHub","Responsive Design"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
+<script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}</script>
+<style>
+:root{--bg:#f7f7f4;--bg2:#fff;--ink:#1c2620;--muted:#5f6b64;--line:#e2e8e3;--accent:#3d6a56;--accent2:#2c503f;--soft:#e8efe9;--glow:rgba(61,106,86,.28);--shadow:0 24px 60px rgba(26,44,33,.14);--max:1120px;color-scheme:light}
+[data-theme=dark]{--bg:#0e1713;--bg2:#131f19;--ink:#e8f0ea;--muted:#9bab9f;--line:#223229;--accent:#6fcf9d;--accent2:#8fe0b5;--soft:#1a2a21;--glow:rgba(111,207,157,.3);--shadow:0 28px 70px rgba(0,0,0,.55);color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+html,body{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;transition:background .35s,color .35s;padding-top:env(safe-area-inset-top,0)}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.045em}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+section{padding:88px 0}
+.site-header{height:76px;display:flex;align-items:center;position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-family:Manrope,sans-serif;font-weight:800;font-size:21px;letter-spacing:-.06em}.brand span{color:var(--accent)}
+.nav-links{display:flex;gap:30px;font-size:14px;font-weight:600;color:var(--muted)}.nav-links a:hover{color:var(--accent)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.theme-btn,.menu-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg2);color:var(--ink);display:grid;place-items:center;font-size:17px;transition:.25s}
+.theme-btn:hover{transform:rotate(25deg) scale(1.08);border-color:var(--accent)}.menu-btn{display:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 22px;border-radius:9px;background:var(--accent);color:#fff;font-size:14px;font-weight:700;border:1px solid var(--accent);transition:.25s;box-shadow:0 10px 28px var(--glow)}
+[data-theme=dark] .btn{color:#06130c}
+.btn:hover{transform:translateY(-3px);box-shadow:0 16px 36px var(--glow)}
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--line);box-shadow:none}[data-theme=dark] .btn-outline{color:var(--ink)}
+.btn-outline:hover{background:var(--soft);box-shadow:none}
+.btn-sm{padding:10px 17px;font-size:13px}
+
+/* HERO */
+.hero{padding:90px 0 80px;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center;position:relative}
+.hero:before{content:'';position:absolute;right:-8%;top:5%;width:520px;height:520px;background:radial-gradient(circle,var(--glow),transparent 65%);filter:blur(30px);z-index:-1}
+.status{display:inline-flex;align-items:center;gap:10px;padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:var(--bg2);font-size:13px;font-weight:600;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:#43c47a;box-shadow:0 0 0 0 rgba(67,196,122,.6);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(67,196,122,0)}100%{box-shadow:0 0 0 0 rgba(67,196,122,0)}}
+h1{font-size:clamp(42px,6vw,68px);line-height:1.06;margin:24px 0 22px;font-weight:800}
+h1 em{font-style:normal;background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{max-width:560px;color:var(--muted);font-size:18px;line-height:1.8}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.stage{perspective:1100px;min-height:340px;display:grid;place-items:center}
+.scene{position:relative;width:280px;height:280px;transform-style:preserve-3d;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .15s ease-out}
+.scene.idle{transition:transform .6s ease}
+.layer{position:absolute;inset:0;border-radius:50%}
+.l-base{background:linear-gradient(150deg,var(--soft),var(--bg2));border:1px solid var(--line);box-shadow:var(--shadow);transform:translateZ(0)}
+.l-ring{inset:-16px;border:1.5px dashed var(--accent);opacity:.55;border-radius:50%;transform:translateZ(-20px)}
+
+.chip3d{position:absolute;padding:11px 16px;background:var(--bg2);border:1px solid var(--line);border-radius:12px;font-size:13px;font-weight:700;box-shadow:var(--shadow);white-space:nowrap;animation:bob 5s ease-in-out infinite}
+.c1{left:-52px;top:30px;transform:translateZ(120px)}.c2{right:-58px;top:150px;transform:translateZ(100px);animation-delay:-1.6s}.c3{left:0;bottom:-14px;transform:translateZ(140px);animation-delay:-3s}
+@keyframes bob{50%{margin-top:-9px}}
+.chip3d b{color:var(--accent);margin-right:6px}
+
+
+.hello{margin:26px 0 0;font-size:18px;font-weight:600;color:var(--muted)}
+.name{display:block;font-size:clamp(44px,7vw,78px);line-height:1.02;letter-spacing:-.055em;background:linear-gradient(100deg,var(--ink) 0%,var(--accent) 55%,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.06em}
+.role{font-family:Manrope,sans-serif;font-weight:700;font-size:clamp(18px,2.2vw,22px);letter-spacing:-.02em;margin:10px 0 18px}
+.ticks{display:flex;flex-wrap:wrap;gap:8px 22px;margin:26px 0 0;padding:0;list-style:none;font-size:14px;font-weight:600;color:var(--muted)}.ticks li:before{content:'✓';color:var(--accent);margin-right:7px;font-weight:800}
+.l-photo{overflow:hidden;border:4px solid var(--bg2);box-shadow:var(--shadow),0 0 0 6px var(--soft)}.l-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block;transform:scale(1.14);transform-origin:52% 30%}
+.l-photo:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.28))}
+.skill-tile .ico{font-family:Manrope,sans-serif;font-weight:800;font-size:15px;letter-spacing:-.03em}
+.cols.six{grid-template-columns:repeat(3,1fr)}
+/* TRUST STRIP */
+.strip{padding:0}.strip-in{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:16px;background:var(--bg2);overflow:hidden}
+.strip-in div{padding:22px 24px;border-right:1px solid var(--line)}.strip-in div:last-child{border:0}
+.strip-in strong{display:block;font-family:Manrope,sans-serif;font-size:20px;letter-spacing:-.03em}.strip-in span{font-size:13px;color:var(--muted)}
+
+/* HEADINGS */
+.kicker{font-size:14px;font-weight:700;color:var(--accent)}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}
+.head h2{font-size:clamp(30px,4vw,44px);line-height:1.12;margin:8px 0 0}.head p{max-width:420px;color:var(--muted);font-size:15px;margin:0}
+
+/* PROJECTS */
+.projects{background:var(--bg2);border-block:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;perspective:1400px}
+.card{position:relative;border:1px solid var(--line);border-radius:18px;background:var(--bg);overflow:hidden;transform-style:preserve-3d;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .2s ease-out,box-shadow .3s,border-color .3s;will-change:transform}
+.card:hover{box-shadow:var(--shadow);border-color:var(--accent)}
+.card:before{content:'';position:absolute;inset:0;z-index:3;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),var(--glow),transparent 55%)}
+.card:hover:before{opacity:1}
+.card .cover{position:absolute;inset:0;z-index:4}
+.visual{height:220px;position:relative;display:grid;place-items:center;overflow:hidden;transform-style:preserve-3d}
+.v1{background:linear-gradient(135deg,#cfe2d6,#9fc4ae)}.v2{background:linear-gradient(135deg,#efd9d0,#d9a99a)}.v3{background:linear-gradient(135deg,#ead9ee,#c3a2cc)}
+[data-theme=dark] .v1{background:linear-gradient(135deg,#1b3a2b,#0f241a)}[data-theme=dark] .v2{background:linear-gradient(135deg,#3a2621,#22150f)}[data-theme=dark] .v3{background:linear-gradient(135deg,#33233a,#1c1222)}
+.live{position:absolute;top:14px;right:14px;z-index:2;font-size:12px;font-weight:700;padding:5px 11px;border-radius:99px;background:rgba(255,255,255,.85);color:#1c2620;display:flex;gap:6px;align-items:center;transform:translateZ(50px)}
+.live i{width:6px;height:6px;border-radius:50%;background:#2fb866}
+.browser{width:86%;height:162px;background:#fff;border-radius:10px;box-shadow:0 22px 40px rgba(0,0,0,.25);overflow:hidden;transform:translateZ(30px) rotateX(6deg);transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.card:hover .browser{transform:translateZ(70px) rotateX(0) scale(1.06)}
+.bar{position:relative;z-index:2;height:18px;background:#f1f2f0;display:flex;align-items:center;gap:4px;padding:0 9px}.bar i{width:5px;height:5px;border-radius:50%;background:#c4c9c5}
+.info{padding:26px 28px 30px;transform:translateZ(20px)}
+.type{font-size:13px;font-weight:700;color:var(--accent)}
+.info h3{font-size:22px;margin:6px 0 10px}.info p{font-size:14px;color:var(--muted);min-height:92px;margin-bottom:14px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}.tags span{font-size:12px;font-weight:600;padding:4px 10px;border-radius:99px;background:var(--soft);color:var(--accent)}
+.go{display:inline-flex;gap:8px;font-size:14px;font-weight:700;color:var(--accent);transition:gap .25s}.card:hover .go{gap:14px}
+
+/* project mockups */
+.v1{--pc:#3d6a56}.v2{--pc:#a8776b}.v3{--pc:#9a74a3}
+.visual{height:236px}.browser{height:184px;position:relative}
+.site{padding:9px 11px;font-size:7px;line-height:1.4;color:#27342c;transition:transform 2.6s ease-in-out}
+.card:hover .site{transform:translateY(-72px)}
+.site h4{font:800 12px/1.15 Manrope,sans-serif;letter-spacing:-.03em;margin:0 0 3px}.site p{margin:0 0 5px;color:#66726a}
+.mn{display:flex;align-items:center;gap:7px;margin-bottom:10px}.mn b{font:800 8px Manrope,sans-serif;margin-right:auto;color:var(--pc)}.mn span{color:#78847c}
+.site .mbtn{display:inline-block;background:var(--pc);color:#fff;padding:3px 7px;border-radius:4px;font-weight:700}
+.mh{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.mh svg{color:var(--pc);flex:none}.mh.c{text-align:center;justify-content:center}
+.mc3{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-bottom:9px}.mc3>div{border:1px solid #e3e8e4;border-radius:6px;padding:6px;text-align:center;font-weight:700}.mc3 i{display:block;width:14px;height:14px;border-radius:50%;background:var(--pc);opacity:.3;margin:0 auto 4px}
+.mq p{padding:5px 7px;border:1px solid #e3e8e4;border-radius:5px;background:#f8faf8}
+.s2 h4,.s2 .mn b{font-family:Georgia,'Times New Roman',serif}
+.mg{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:9px}.mg span{aspect-ratio:1;border-radius:6px;background:linear-gradient(135deg,#f3d5cb,#d6a395)}.mg span:nth-child(2){background:linear-gradient(135deg,#ecd5df,#b98aa0)}.mg span:nth-child(3){background:linear-gradient(135deg,#f6e3d3,#dcae8c)}.mg span:nth-child(4){background:linear-gradient(135deg,#e6d3e2,#b995b3)}
+.ml p{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #eee;margin:0}
+.s3{text-align:center}.mcd{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:8px 0}.mcd div{background:#f4ecf7;border-radius:5px;padding:5px 0}.mcd b{display:block;font:800 12px Manrope,sans-serif;color:var(--pc)}
+.shot{position:absolute;left:0;top:18px;width:100%;display:block;transition:transform 3s ease-in-out}.card:hover .shot{transform:translateY(var(--sc,0px))}.has-shot .site{display:none}
+/* SERVICES */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.tile{padding:30px;border:1px solid var(--line);border-radius:16px;background:var(--bg2);transition:.3s}
+.tile:hover{transform:translateY(-6px);border-color:var(--accent);box-shadow:var(--shadow)}
+.ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:var(--soft);color:var(--accent);font-size:21px;margin-bottom:18px}
+.tile h3{font-size:19px;margin-bottom:8px}.tile p{font-size:14px;color:var(--muted);margin:0}
+
+/* PROCESS */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;border-top:1px solid var(--line)}
+.step{padding:28px 24px 0 0;position:relative;counter-increment:s}
+.step:before{content:counter(s);position:absolute;top:-15px;left:0;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--bg);font-weight:700;font-size:13px;display:grid;place-items:center}
+[data-theme=dark] .step:before{color:#06130c}
+.step h3{font-size:17px;margin:10px 0 6px}.step p{font-size:14px;color:var(--muted)}
+
+/* ABOUT */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}
+.about h2{font-size:clamp(30px,4vw,42px);line-height:1.15;margin:8px 0 0}
+.about p{color:var(--muted);font-size:16px;line-height:1.85}.about strong{color:var(--ink)}
+.skills{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}.skills span{padding:9px 15px;border:1px solid var(--line);background:var(--bg2);border-radius:8px;font-size:13px;font-weight:600;transition:.2s}.skills span:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+.edu{border-left:3px solid var(--accent);padding-left:16px}.edu strong{display:block}.edu span{font-size:13px;color:var(--muted)}
+
+/* CONTACT */
+.contact{padding:0 0 88px}
+.cta{position:relative;overflow:hidden;border-radius:26px;padding:64px;background:linear-gradient(135deg,#25402f,#14261c);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:36px}
+.cta:before{content:'';position:absolute;right:-120px;top:-120px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(111,207,157,.35),transparent 65%)}
+.cta>*{position:relative}.cta h2{font-size:clamp(32px,4vw,46px);line-height:1.1;margin:8px 0 14px}.cta p{color:#c3d3c8;max-width:500px;margin:0}.cta .kicker{color:#8fe0b5}
+.cta-btns{display:flex;flex-direction:column;gap:10px;min-width:200px}
+.cta-btns a{padding:13px 20px;border-radius:10px;border:1px solid rgba(255,255,255,.3);font-weight:700;font-size:14px;text-align:center;transition:.25s}
+.cta-btns a:hover{background:#fff;color:#14261c;transform:translateX(-4px)}
+.cta-btns a.main{background:#6fcf9d;color:#06130c;border-color:#6fcf9d}
+.footer{padding:0 0 30px;color:var(--muted);font-size:13px}.footer .wrap{display:flex;justify-content:space-between;gap:14px}.footer a{color:var(--accent);font-weight:600}
+
+@media(max-width:900px){.hero{grid-template-columns:1fr;gap:30px;padding-top:60px}.stage{min-height:360px}.grid,.cols,.cols.six{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr;row-gap:36px}.strip-in{grid-template-columns:1fr 1fr}.strip-in div:nth-child(2){border-right:0}.strip-in div:nth-child(-n+2){border-bottom:1px solid var(--line)}.about{gap:30px;grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start;padding:44px 30px}.cta-btns{flex-direction:row;flex-wrap:wrap;min-width:0}.info p{min-height:0}}
+@media(max-width:640px){.wrap{width:calc(100% - 34px)}section{padding:64px 0}.menu-btn{display:grid}.nav-btn{display:none}.nav-links{display:none;position:absolute;top:76px;left:0;right:0;flex-direction:column;gap:16px;padding:20px 24px;background:var(--bg);border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.grid,.cols,.cols.six,.steps{grid-template-columns:1fr}.head{display:block}.head p{margin-top:14px}.scene{width:220px;height:220px}.c1{left:-24px}.c2{right:-26px}.footer .wrap{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.scene,.card{transform:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Nimra Rab Nawaz, home">nimra<span>.</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#work">Projects</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeBtn" aria-label="Switch to dark theme" title="Toggle theme">☾</button>
+      <a class="btn btn-sm nav-btn" href="#contact">Contact me</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap hero" id="home">
+    <div>
+      <span class="status"><i class="dot"></i> Available for freelance work, internships, remote roles &amp; new opportunities</span>
+      <p class="hello">Hello, I’m</p>
+      <h1><span class="name">Nimra Rab Nawaz</span></h1>
+      <p class="role">Web Developer · BS Software Engineering Student</p>
+      <p class="lead">I build clean, fast, mobile-friendly websites that help businesses look professional, earn customer trust and turn visitors into enquiries.</p>
+      <div class="actions"><a class="btn" href="#contact">Contact me</a><a class="btn btn-outline" href="#work">View highlighted projects ↗</a></div>
+      <ul class="ticks"><li>Mobile-friendly</li><li>Clean, maintainable code</li><li>Clear communication</li></ul>
+    </div>
+    <div class="stage" id="stage">
+      <div class="scene idle" id="scene">
+        <div class="layer l-ring"></div><div class="layer l-base l-photo"><img src="assets/profile.webp" width="640" height="640" alt="Portrait of Nimra Rab Nawaz, web developer, at her desk with a laptop" /></div>
+        <div class="chip3d c1"><b>✳</b>Web Developer</div>
+        <div class="chip3d c2"><b>▣</b>Responsive design</div>
+        <div class="chip3d c3"><b>●</b>Open to work</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip"><div class="wrap strip-in" aria-label="At a glance">
+    <div><strong>Highlighted projects</strong><span>Live websites you can explore</span></div>
+    <div><strong>Responsive by default</strong><span>Phones, tablets and desktops</span></div>
+    <div><strong>HTML · CSS · JavaScript</strong><span>Fast, lightweight websites</span></div>
+    <div><strong>Easy to reach</strong><span>Email, LinkedIn or GitHub</span></div>
+  </div></section>
+
+  <section class="projects" id="work" style="margin-top:88px">
+    <div class="wrap">
+      <div class="head"><div><span class="kicker">Highlighted projects</span><h2>Work you can see, open and test.</h2></div><p>Every project is published online. Hover a card to preview the page, then open it to explore the full site.</p></div>
+      <div class="grid">
+        <article class="card" data-tilt>
+          <div class="visual v1"><span class="live"><i></i>Live</span>
+            <div class="browser" data-shot="assets/projects/brightnest.jpg"><div class="bar"><i></i><i></i><i></i></div><div class="site s1"><div class="mn"><b>BrightNest</b><span>Services</span><span>FAQ</span><span class="mbtn">Get a quote</span></div><div class="mh"><div><h4>Trusted care for your home</h4><p>Cleaning, repairs and painting by friendly experts.</p><span class="mbtn">Request a quote</span></div><svg viewBox="0 0 48 40" width="42" aria-hidden="true"><path d="M4 20 24 4l20 16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="10" y="20" width="28" height="18" rx="2" fill="currentColor" opacity=".25"/><rect x="20" y="26" width="8" height="12" rx="1.5" fill="currentColor"/></svg></div><div class="mc3"><div><i></i>Cleaning</div><div><i></i>Repairs</div><div><i></i>Painting</div></div><div class="mq"><p><b>Frequently asked questions</b></p><p>How fast can you visit?</p><p>Do you offer free quotes?</p></div></div></div></div>
+          <div class="info"><div class="type">Business website</div><h3>BrightNest Home Services</h3><p>A welcoming service-business site with clear service sections, trust-building content, FAQs, and a quote-request flow.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="go">View live project <b>↗</b></span></div>
+          <a class="cover" href="https://nimra-codes.github.io/home-services-website/" target="_blank" rel="noopener noreferrer" aria-label="Open BrightNest Home Services live project"></a>
+        </article>
+        <article class="card" data-tilt>
+          <div class="visual v2"><span class="live"><i></i>Live</span>
+            <div class="browser" data-shot="assets/projects/glow-grace.jpg"><div class="bar"><i></i><i></i><i></i></div><div class="site s2"><div class="mn"><b>Glow &amp; Grace</b><span>Services</span><span>Gallery</span><span class="mbtn">Book now</span></div><div class="mh c"><div><h4>Beauty, beautifully done</h4><p>Hair, skin and nails in a calm, welcoming space.</p><span class="mbtn">Book appointment</span></div></div><div class="mg"><span></span><span></span><span></span><span></span></div><div class="ml"><p><b>Signature facial</b><span>›</span></p><p><b>Hair styling</b><span>›</span></p><p><b>Bridal makeup</b><span>›</span></p></div></div></div></div>
+          <div class="info"><div class="type">Brand website</div><h3>Glow &amp; Grace Beauty Salon</h3><p>An elegant salon site showcasing signature services, a beauty gallery, the brand story, and an appointment inquiry flow.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="go">View live project <b>↗</b></span></div>
+          <a class="cover" href="https://nimra-codes.github.io/beauty-salon-website/" target="_blank" rel="noopener noreferrer" aria-label="Open Glow and Grace Beauty Salon live project"></a>
+        </article>
+        <article class="card" data-tilt>
+          <div class="visual v3"><span class="live"><i></i>Live</span>
+            <div class="browser" data-shot="assets/projects/birthday-invitation.jpg"><div class="bar"><i></i><i></i><i></i></div><div class="site s3"><h4>You’re invited!</h4><p>Join us for a birthday celebration</p><svg viewBox="0 0 120 54" width="96" aria-hidden="true"><g stroke="#9aa" stroke-width=".8" fill="none"><path d="M30 30c0 10 4 14 8 22"/><path d="M60 26c0 12-2 16-2 26"/><path d="M90 30c0 10-4 14-8 22"/></g><ellipse cx="30" cy="18" rx="12" ry="15" fill="#e58fa8"/><ellipse cx="60" cy="14" rx="13" ry="16" fill="#9a74a3"/><ellipse cx="90" cy="18" rx="12" ry="15" fill="#f0b45f"/></svg><div class="mcd"><div><b>00</b>days</div><div><b>00</b>hrs</div><div><b>00</b>min</div><div><b>00</b>sec</div></div><p>Date · Time · Venue</p><span class="mbtn">RSVP now</span></div></div></div>
+          <div class="info"><div class="type">Interactive event page</div><h3>Birthday Invitation</h3><p>A celebratory invitation site with event details, a countdown, and an RSVP experience in a playful visual style.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="go">View live project <b>↗</b></span></div>
+          <a class="cover" href="https://nimra-codes.github.io/birthday-invitation-website/" target="_blank" rel="noopener noreferrer" aria-label="Open Birthday Invitation live project"></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills"><div class="wrap">
+    <div class="head"><div><span class="kicker">Skills</span><h2>Skills I bring to every project.</h2></div><p>A focused set of web development skills for turning ideas and designs into working, polished websites.</p></div>
+    <div class="cols six">
+      <div class="tile skill-tile"><div class="ico">&lt;/&gt;</div><h3>HTML</h3><p>Semantic, accessible page structure that search engines and screen readers understand.</p></div>
+      <div class="tile skill-tile"><div class="ico">CSS</div><h3>CSS</h3><p>Modern layouts, thoughtful typography, and smooth hover and transition effects.</p></div>
+      <div class="tile skill-tile"><div class="ico">JS</div><h3>JavaScript</h3><p>Interactive features such as menus, theme toggles, countdowns and forms.</p></div>
+      <div class="tile skill-tile"><div class="ico">▤</div><h3>Web Development</h3><p>Planning, building and publishing complete websites from first idea to launch.</p></div>
+      <div class="tile skill-tile"><div class="ico">⎇</div><h3>Git &amp; GitHub</h3><p>Version control and hosting, so your work is organised, safe and easy to update.</p></div>
+      <div class="tile skill-tile"><div class="ico">▣</div><h3>Responsive Design</h3><p>Layouts that look right and work smoothly on every screen size.</p></div>
+    </div>
+  </div></section>
+
+  <section id="services" style="padding-top:0"><div class="wrap">
+    <div class="head"><div><span class="kicker">How I can help</span><h2>What I can build for you.</h2></div><p>Simple, clear websites that help visitors understand your offer and take action.</p></div>
+    <div class="cols">
+      <div class="tile"><div class="ico">▤</div><h3>Business websites</h3><p>Service pages, FAQs, testimonials, and contact forms that help new customers trust you quickly.</p></div>
+      <div class="tile"><div class="ico">✦</div><h3>Portfolio &amp; brand pages</h3><p>A polished online presence for freelancers, studios, and small brands, with your story told clearly.</p></div>
+      <div class="tile"><div class="ico">◔</div><h3>Interactive pages</h3><p>Countdowns, RSVP flows, galleries, and other small features that make a page feel alive.</p></div>
+    </div>
+  </div></section>
+
+  <section id="process" style="padding-top:0"><div class="wrap">
+    <div class="head"><div><span class="kicker">How we’ll work together</span><h2>A simple, transparent process.</h2></div></div>
+    <div class="steps">
+      <div class="step"><h3>Discuss</h3><p>We talk about your goals, audience, and what visitors should do on the site.</p></div>
+      <div class="step"><h3>Design</h3><p>I plan the layout and style so the site fits your brand and reads clearly.</p></div>
+      <div class="step"><h3>Build</h3><p>I code it responsively and test it on different screen sizes.</p></div>
+      <div class="step"><h3>Launch &amp; refine</h3><p>We publish it, then I make changes based on your feedback.</p></div>
+    </div>
+  </div></section>
+
+  <section id="about" style="padding-top:0"><div class="wrap about">
+    <div><span class="kicker">About me</span><h2>Curious by nature.<br/>Focused on details.</h2></div>
+    <div>
+      <p>I’m <strong>Nimra Rab Nawaz</strong>, a BS Software Engineering undergraduate who loves bringing ideas to life on the web. I build websites that feel intuitive, look polished, and work smoothly on every screen size.</p>
+      <p style="margin-bottom:24px">I care about continuous learning, thoughtful design, and maintainable code. Every project is a chance to improve my skills and deliver something better than the last.</p>
+      <div class="edu"><strong>BS Software Engineering</strong><span>Undergraduate · Currently studying</span></div>
+    </div>
+  </div></section>
+
+  <section class="contact" id="contact"><div class="wrap"><div class="cta">
+    <div><span class="kicker">Let’s work together</span><h2>Let’s build something great together.</h2><p>I’m available for freelance projects, remote jobs, internships and collaborations. Send a short message about what you need and I’ll get back to you.</p></div>
+    <div class="cta-btns" aria-label="Contact links">
+      <a class="main" href="mailto:nimranawaz232@gmail.com">Email me ↗</a>
+      <a href="https://www.linkedin.com/in/nimra-rab-nawaz-b7a1b23b7" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://github.com/nimra-codes" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </div></div></section>
+</main>
+
+<footer class="footer"><div class="wrap"><span>© <span id="year"></span> Nimra Rab Nawaz. All rights reserved.</span><a href="#home">Back to top ↑</a></div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('themeBtn');
+  function sync(){var d=root.dataset.theme==='dark';btn.textContent=d?'☀':'☾';btn.setAttribute('aria-label',d?'Switch to light theme':'Switch to dark theme');document.querySelector('meta[name=theme-color]').content=d?'#0e1713':'#f7f7f4'}
+  btn.addEventListener('click',function(){root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('theme',root.dataset.theme)}catch(e){}sync()});
+  sync();
+  var mb=document.getElementById('menuBtn'),nl=document.getElementById('navLinks');
+  function closeMenu(){nl.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.textContent='☰'}
+  mb.addEventListener('click',function(){var o=nl.classList.toggle('open');mb.setAttribute('aria-expanded',o);mb.textContent=o?'×':'☰'});
+  nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu)});
+  document.getElementById('year').textContent=new Date().getFullYear();
+
+  document.querySelectorAll('.browser[data-shot]').forEach(function(b){var im=new Image();im.className='shot';im.alt='';im.onload=function(){b.appendChild(im);b.classList.add('has-shot');var d=im.offsetHeight-(b.clientHeight-18);b.style.setProperty('--sc',-Math.max(0,Math.min(d,420))+'px')};im.src=b.dataset.shot});
+  var fine=matchMedia('(hover:hover) and (pointer:fine)').matches&&!matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(!fine)return;
+  /* Hero 3D tilt */
+  var stage=document.getElementById('stage'),scene=document.getElementById('scene');
+  stage.addEventListener('mousemove',function(e){var r=stage.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;scene.classList.remove('idle');scene.style.setProperty('--ry',(x*26)+'deg');scene.style.setProperty('--rx',(-y*22)+'deg')});
+  stage.addEventListener('mouseleave',function(){scene.classList.add('idle');scene.style.setProperty('--ry','0deg');scene.style.setProperty('--rx','0deg')});
+  /* Project card 3D tilt + spotlight */
+  document.querySelectorAll('[data-tilt]').forEach(function(c){
+    c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;c.style.setProperty('--ry',((x-.5)*12)+'deg');c.style.setProperty('--rx',((.5-y)*10)+'deg');c.style.setProperty('--mx',(x*100)+'%');c.style.setProperty('--my',(y*100)+'%')});
+    c.addEventListener('mouseleave',function(){c.style.setProperty('--ry','0deg');c.style.setProperty('--rx','0deg')});
+  });
+})();
+</script>
+</body>
+</html>
